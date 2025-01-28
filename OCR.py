@@ -5,7 +5,7 @@ import numpy as np
 import streamlit as st
 from PIL import Image
 import pytesseract
-# pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"  # Specify the path to the Tesseract and prevent potential errors
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'  # Specify the path to the Tesseract and prevent potential errors
 
 # Image to text fun
 
